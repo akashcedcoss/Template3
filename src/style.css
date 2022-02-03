@@ -140,7 +140,7 @@ h2{
 .sub{
     padding: 0;
     margin: 0;
-    padding-left: 40px;
+    /* padding-left: 40px; */
 }
 .f1{
     float: left;
@@ -148,3 +148,79 @@ h2{
 .f2{
     float: right;
 }
+.bigcontain{
+    overflow: hidden;
+    margin: auto;
+    padding: 0;
+}
+@media screen and (max-width: 760px) {
+    /* For mobile phones: */
+    .subs {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        width: 30%;
+    }
+    .content {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .button2 {
+        padding: 4px;
+        color: white;
+        background-color: rgb(13, 178, 207);
+        
+    }
+    .sub {
+        margin: 0px;
+    }
+    
+
+    .mb1 {
+        float: left;
+        /* width: 73%; */
+        width: auto;
+        overflow: hidden;
+        margin-left: 4%;
+        margin-bottom: 40px;
+    }
+    .box1 {
+        height: 120px;
+        background-color: rgb(192,192,192);
+    }
+
+    .mb2 {
+        float: left;
+        /* width: 73%; */
+        width: auto;
+        overflow: hidden;
+        margin-left: 4%;
+        margin-bottom: 40px;
+    }
+    .box2 {
+        height: 120px;
+        background-color: rgb(192,192,192);
+    }
+    .mb3 {
+        float: left;
+        /* width: 73%; */
+        width: auto;
+        overflow: hidden;
+        margin-left: 4%;
+        margin-bottom: 40px;
+    }
+    .box3 {
+        height: 120px;
+        background-color: rgb(192,192,192);
+    }
+    .bigcontain{
+        overflow: hidden;
+        margin: auto;
+        padding: 0;
+    }
+
+  }
