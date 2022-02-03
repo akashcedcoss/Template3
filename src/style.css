@@ -1,0 +1,25 @@
+.wrap{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.logo{
+    float: left;
+}
+h1{
+    padding-left: 36px;
+}
+.nav{
+    
+    float: right;
+    padding: 4px;
+    margin: 10px;
+
+}
+a{
+    margin: 4px;
+    padding: 6px;
+}
+
+.header{
+    overflow: hidden;
+}
