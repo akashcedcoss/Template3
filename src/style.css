@@ -142,3 +142,9 @@ h2{
     margin: 0;
     padding-left: 40px;
 }
+.f1{
+    float: left;
+}
+.f2{
+    float: right;
+}
